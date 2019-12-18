@@ -1,4 +1,4 @@
-FROM 32bit/ubuntu:16.04
+FROM i386/ubuntu:latest
 
 RUN apt-get update \
     && apt-get upgrade -y \
